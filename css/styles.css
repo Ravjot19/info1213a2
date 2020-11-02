@@ -1,0 +1,334 @@
+
+
+#title{
+background-color:  #F1D4D4;
+}
+
+
+
+
+.navbar-brand > img {
+width: 40px;
+margin-left: 50px;
+
+
+  }
+
+
+
+
+.container-fluid{
+background-color:#5D5B6A;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+
+.jumbotron{
+  margin: 0 10%;
+  height: 100%;
+}
+
+
+
+
+
+@media (max-width:768px) {
+    .jumbotron  {
+        font-size: 8em;
+
+        background-color: #35495E;
+
+
+    }
+
+    .profile-pic{
+      max-width: 10%;
+      max-height: auto;
+      width: 10%;
+      height: auto;
+      min-width: 10%;
+      min-height: auto;
+      margin-left: 100px;
+
+    }
+}
+
+
+
+@media  (max-width:992px) {
+    .jumbotron  {
+        font-size: 6em;
+
+        background-color: #35495E;
+    }
+    .profile-pic{
+      max-width: 20%;
+      max-height: auto;
+      width: 10%;
+      height: auto;
+      min-width: 20%;
+      min-height: auto;
+      margin-left: 100px;
+
+    }
+
+}
+
+@media  (max-width:1200px)  {
+    .jumbotron  {
+
+        font-size: 8em;
+        background-color: #35495E;
+
+
+    }
+
+    .profile-pic{
+      max-width: 20%;
+      max-height: auto;
+      width: 10%;
+      height: auto;
+      min-width: 20%;
+      min-height: auto;
+      margin-left: 100px;
+
+    }
+
+
+}
+
+@media  (min-width:1200px) {
+    .jumbotron  {
+
+        font-size: 6em;
+        background-color: #35495E;
+
+    }
+
+
+
+    .profile-pic{
+      max-width: 20%;
+      max-height: auto;
+      width: 10%;
+      height: auto;
+      min-width: 20%;
+      min-height: auto;
+      margin-left: 100px;
+
+    }
+
+
+}
+
+
+
+
+.title-container{
+  padding: 4% 2%;
+  margin: 0 2%;
+
+
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 3px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border: solid 3px;
+  border-color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+#middle{
+margin: 0% 7%;
+padding: 0 7%;
+}
+
+#grid{
+  margin: 5% 0;
+  padding: 5% 5%
+}
+
+#bio{
+
+  margin: 5% 0;
+  padding: 2% 5%;
+
+
+}
+
+.card{
+background-color: #5D5B6A;
+margin: 0 22%;
+  width: 60%;
+  border: solid 3px;
+  border-color: black;
+
+}
+
+
+#hobbies{
+  margin: 5% 0;
+padding: 2% 5%;
+}
+
+
+.jumbotron-fluid{
+  border: solid 3px;
+  border-color: black;
+  margin: 0 20%;
+}
+
+#expereince{
+  margin: 5% 0;
+  padding: 2% 5%;
+
+}
+
+.card-body{
+
+}
+
+.container-2{
+  margin: 3% 2%;
+
+}
+
+
+#skills{
+margin: 5% 0;
+padding: 2% 5%;
+}
+
+.container-3{
+
+  margin: 3% 14%;
+  padding: 2% 4%;
+}
+  #progress-cc{
+      background: #333;
+      border-radius: 16px;
+      height: 20px;
+      width: 100%;
+      padding: 5px;
+      margin: 3% 0;
+
+
+  }
+
+  #progress-cc:after{
+      content: '';
+      display: block;
+      background: #F9C0C0;
+      width: 90%;
+      height: 100%;
+      border-radius: 7px;
+
+  }
+
+  #progress-c{
+      background: #333;
+      border-radius: 16px;
+      height: 20px;
+      width: 100%;
+      padding: 5px;
+      margin: 3% 0;
+
+
+  }
+
+  #progress-c:after{
+      content: '';
+      display: block;
+      background: #F9C0C0;
+      width: 75%;
+      height: 100%;
+      border-radius: 7px;
+  }
+  #progress-p{
+      background: #333;
+      border-radius: 16px;
+      height: 20px;
+      width: 100%;
+      padding: 5px;
+      margin: 3% 0;
+
+  }
+
+  #progress-p:after{
+      content: '';
+      display: block;
+      background: #F9C0C0;
+      width: 60%;
+      height: 100%;
+      border-radius: 7px;
+  }
+  #progress-j{
+      background: #333;
+      border-radius: 16px;
+      height: 20px;
+      width: 100%;
+      padding: 5px;
+      margin: 3% 0;
+
+  }
+
+  #progress-j:after{
+      content: '';
+      display: block;
+      background: #F9C0C0;
+      width: 45%;
+      height: 100%;
+      border-radius: 7px;
+  }
+
+
+#contact-me{
+
+  padding: 2% 5%;
+}
+
+.container-4{
+padding: 2% 10%;
+margin: 0% 15%;
+
+}
+
+.Btn{
+margin: 9px;
+  text-align: center;
+}
